@@ -5,7 +5,7 @@ import profileRouter from "./routes/profile.js";
 import usersRouter from "./routes/users.js";
 import postsRouter from "./routes/posts.js";
 const app = express();
-
+app.use(express.json())
 // Express Routes
 app.use("/api/auth", authRouter);
 app.use("/api/profile", profileRouter);
