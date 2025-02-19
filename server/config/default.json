@@ -1,3 +1,4 @@
 {
-  "mongoConnectionString": "mongodb+srv://admin:dbPassword@cluster0.a8jpa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  "mongoConnectionString": "mongodb+srv://admin:dbPassword@cluster0.a8jpa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+  "jwt_secret_key": "JWTSecretToken"
 }
